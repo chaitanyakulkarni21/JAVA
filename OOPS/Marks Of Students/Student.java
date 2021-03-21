@@ -27,7 +27,7 @@ class Student{
     System.out.println("Marks in Subject 5 : " + st.sub5);
     System.out.println("Average: " + st.avg);
 
-    if(st.avg>50){
+    if(st.avg > 50){
       System.out.println("PASS");
     } else{
       System.out.println("FAIL");
