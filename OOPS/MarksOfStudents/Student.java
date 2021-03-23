@@ -14,7 +14,7 @@ class Student{
     st.sub1 = sc.nextInt();
     st.sub2 = sc.nextInt();
     st.sub3 = sc.nextInt();
-    st.sub3 = sc.nextInt();
+    st.sub4 = sc.nextInt();
     st.sub5 = sc.nextInt();
 
     st.avg = (st.sub1 + st.sub2 + st.sub3 + st.sub4 + st.sub5) / 5;
@@ -28,9 +28,9 @@ class Student{
     System.out.println("Average: " + st.avg);
 
     if(st.avg > 50){
-      System.out.println("PASS");
+      System.out.println("Result: PASS");
     } else{
-      System.out.println("FAIL");
+      System.out.println("Result: FAIL");
     }
   }
 }
