@@ -35,12 +35,13 @@ public class Student extends Person{
 
     System.out.println("Enter Student name: ");
     st.personName = sc.nextLine();
-    System.out.println("Enter Age: ");
+    System.out.println("Enter Institution Name: ");
+    st.personInstName = sc.nextLine();
+    System.out.println("Enter Student Age: ");
     st.personAge = sc.nextInt();
     System.out.println("Enter Year of Passing: ");
     st.passingYear = sc.nextInt();
-    System.out.println("Enter Institution Name: ");
-    st.personInstName = sc.nextLine();
+    
 
     st.setInfo(st.personName, st.personAge, st.personInstName);
     st.setPassingYear(st.passingYear);
