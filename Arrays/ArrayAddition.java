@@ -1,3 +1,5 @@
+//Addition of 2 arrays entered by the user
+
 import java.util.Scanner;
 
 public class ArrayAddition{
@@ -32,7 +34,7 @@ public class ArrayAddition{
       System.out.print(arr2[i] + " ");
     }
     System.out.println("\n");
-    
+
     int n3;
     int[] arr3 = new int[20];
     System.out.println("Enter size of arrays 3: ");
