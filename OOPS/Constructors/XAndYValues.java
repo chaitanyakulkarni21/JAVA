@@ -11,9 +11,9 @@ class XAndYValues{
         System.out.println("y = " + y);
     }
     
-    void changeXAndY(int newx, int newy){
-        this.x = newx;
-        this.y = newy;
+    void changeXAndY(int new_x, int new_y){
+        this.x = new_x;
+        this.y = new_y;
     }
     
     void printXAndY(){
