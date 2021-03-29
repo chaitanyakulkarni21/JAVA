@@ -21,6 +21,7 @@ class XAndYValues{
         System.out.println("New y = " + y);
     }
     public static void main(String[] args){
+        System.out.println("x and y are initialized as : ");
         XAndYValues m = new XAndYValues(5,10);
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter new values of x and y: ");
