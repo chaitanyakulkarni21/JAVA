@@ -8,7 +8,7 @@ class Book1{
     System.out.println("Default Constructor Invoked...");
   }
   Book1(int id, String title){
-    this();
+    this(); // Default constructor invoked
     this.id = id;
     this.title = title;
   }
