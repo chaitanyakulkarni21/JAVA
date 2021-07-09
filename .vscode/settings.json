@@ -1,5 +1,6 @@
 {
   "files.autoSave": "afterDelay",
   "workbench.preferredDarkColorTheme": "BeardedTheme Vivid",
-  "editor.fontSize": 17
+  "editor.fontSize": 15,
+  "editor.fontFamily": "Office Code Pro, Consolas, 'Courier New', monospace"
 }
